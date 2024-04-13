@@ -5,10 +5,21 @@
       <link rel="stylesheet" href="style.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      
       <title>Bioma Amazônico</title>
       <link rel="shortcut icon" href="Imagens/logo2.ico" type="image/x-icon">
    </head>
    <body>
+      <div vw class="enabled">
+         <div vw-access-button class="active"></div>
+         <div vw-plugin-wrapper>
+           <div class="vw-plugin-top-wrapper"></div>
+         </div>
+       </div>
+       <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+       <script>
+         new window.VLibras.Widget('https://vlibras.gov.br/app');
+       </script>
       <nav>
          <div class="logo">
            <p style="text-align: left;">COP30:Amazônia</p>
@@ -22,23 +33,30 @@
             <li><a href="exploracao.html">Exploração</a></li>
             <li><a href="desmatamento.html">Desmatamento</a></li>
             <li><a href="povosoriginais.html">Povos originários</a></li>
+            <li><div class="dropdown">
+               <button class="dropbtn">Acessibilidade</button>
+               <div class="dropdown-content">
+                 <a href="#">Cores com contraste</a>
+                 <a href="#" >Tradutor em libras</a>
+               </div>
+               
+             </div></li>
          </ul>
       </nav>
-      <div class="content">
          <div>
             <br>
             <br>
-            <h5>Introdução : </h5>
+            <h2>Introdução : </h2>
             <p style="font-size: 18px;">O projeto "<span style="color:#0f7202;">De Olho na COP-30</span>" é uma iniciativa crucial que enfatiza a importância de sediar a conferência
-            climática mais importante do mundo na Amazônia. Enquanto as autoridades celebram esse privilégio, reconhecem os
-            desafios que precisam ser superados para tornar a região amazônica uma sede ideal para essas discussões globais
-            sobre mudanças climáticas e para garantir a saúde da floresta na região.</p>
-        </div>
-        <h2>Sobre o que esse site se trata ?</h2>
-        <p style="font-size: 18px;"><strong>Nele falaremos sobre o contexto atual do bioma amazônico. Na barra de navegação, voce encontrará os tópicos pertinentes a esse assunto tratados neste website</strong></p>
-        <div>
-        <p style="font-size: 20px;">.</p>
-        <div class="alinharbotao"><button class="button" onclick="window.location.href='https://www12.senado.leg.br/noticias/materias/2023/12/12/brasil-e-confirmado-como-sede-da-cop-30-em-2025#:~:text=O%20Brasil%20foi%20formalmente%20confirmado,21%20de%20novembro%20de%202025.'">Saiba Mais</button></div>
-        </div>
+               climática mais importante do mundo na Amazônia. Enquanto as autoridades celebram esse privilégio, reconhecem os
+               desafios que precisam ser superados para tornar a região amazônica uma sede ideal para essas discussões globais
+               sobre mudanças climáticas e para garantir a saúde da floresta na região.</p>
+            </div>
+            <h2>Sobre o que esse site se trata ?</h2>
+            <p style="font-size: 18px;">Nele falaremos sobre o contexto atual do bioma amazônico. Na barra de navegação, voce encontrará os tópicos pertinentes a esse assunto tratados neste website</p>
+            <div>
+               <p style="font-size: 20px;">.</p>
+               <div class="alinharbotao"><button class="button" onclick="window.location.href='https://www12.senado.leg.br/noticias/materias/2023/12/12/brasil-e-confirmado-como-sede-da-cop-30-em-2025#:~:text=O%20Brasil%20foi%20formalmente%20confirmado,21%20de%20novembro%20de%202025.'">Saiba Mais</button></div>
+            </div>
    </body>
 </html>

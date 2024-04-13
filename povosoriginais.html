@@ -9,6 +9,16 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
    </head>
    <body>
+      <div vw class="enabled">
+         <div vw-access-button class="active"></div>
+         <div vw-plugin-wrapper>
+           <div class="vw-plugin-top-wrapper"></div>
+         </div>
+       </div>
+       <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+       <script>
+         new window.VLibras.Widget('https://vlibras.gov.br/app');
+       </script>
       <nav>
          <div class="logo">
            <p style="text-align: left;">COP30:Amazônia</p>
@@ -22,6 +32,14 @@
             <li><a href="exploracao.html">Exploração</a></li>
             <li><a href="desmatamento.html">Desmatamento</a></li>
             <li><a class="active" href="povosoriginais.html">Povos originários</a></li>
+            <li><div class="dropdown">
+               <button class="dropbtn">Acessibilidade</button>
+               <div class="dropdown-content">
+                 <a href="#">Cores com contraste</a>
+                 <a href="#" >Tradutor em libras</a>
+               </div>
+               
+             </div></li>
          </ul>
       </nav>
       <h1 style="text-align: center;">Povos Originários</h1>
@@ -52,7 +70,9 @@
           </audio>
 
       </strong>
-
+      <footer>
+         <p>&copy; 2024 Exploração na Amazônia - Todos os direitos reservados.</p>
+         </footer>
 
    </body>
 </html>
